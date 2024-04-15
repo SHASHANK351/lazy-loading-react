@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  max-width: 500px;
+}
+.optionsPanel {
+  border: 1px solid gray;
+  max-height: 100px;
+  overflow: auto;
+  max-width: 500px;
+  margin: auto;
+}
+.options {
+  text-align: left;
+}
+.loading {
+  color: palegreen;
+}
+.error {
+  color: red;
+}
